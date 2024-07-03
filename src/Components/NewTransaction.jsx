@@ -117,7 +117,7 @@ const NewTransaction = ({ setTransactions }) => {
             value={transactionType}
             onChange={(e) => setTransactionType(e.target.value)}
           >
-            <MenuItem value="income">Income</MenuItem>
+            <MenuItem value="income">Icome</MenuItem>
             <MenuItem value="expense">Expense</MenuItem>
           </Select>
         </FormControl>
